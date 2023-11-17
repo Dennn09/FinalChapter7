@@ -3,8 +3,9 @@ import React from 'react';
 
 export const Responsive = () => {
   return (
-    <div className='flex-col p-0 justify-center items-center'>
-        <div className='  flex justify-end'>
+    <div className=''>
+    {/* <div className='flex-col p-0 justify-center items-center'> */}
+        {/* <div className='  flex justify-end'>
         <div className=' bg-red-500 w-[25vw] mb-1 tablet:bg-red-500 h-[10vh] tablet:w-[99vw] tablet:mx-2 tablet:mb-1'>Merah</div>
         </div>
    
@@ -20,7 +21,11 @@ export const Responsive = () => {
         <div className='bg-purple-800 w-[100%] h-[100%] tablet:m-1'>ungu</div>
         </div>
        
-      </div>
+      </div> */}
+
+<h1 className='flex items-center justify-center font-bold text-white bg-black h-[100vh] w-[100vw] text-center text-[4rem]'>
+  Deni Rahman Masulili
+</h1>
     </div>
   );
 };
